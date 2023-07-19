@@ -30,12 +30,11 @@
 
 .navContainer {
   background-color: #ffffff;
-  margin-bottom: 0.4rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 0.4rem;
 }
 
 .navWrapper {
-  /* background-color: aqua; */
   width: 85%;
   padding: 0.8rem 0;
   margin: auto;
@@ -44,7 +43,6 @@
 }
 
 .navLeft {
-  /* background-color: #b9a1ef; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,7 +65,6 @@
 }
 
 .navRight {
-  /* background-color: rgb(246, 87, 59); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,7 +97,7 @@
 /* banner section starts  */
 
 .bannerContainer {
-  margin-bottom: 1.5rem;
+  margin-bottom: 4rem;
 }
 
 .bannerWrapper {
@@ -198,7 +195,7 @@
 /* online game starts  */
 
 .onlineGameContainer {
-  margin-bottom: 1.5rem;
+  margin-bottom: 4rem;
 }
 
 .onlineGameWrapper {
@@ -282,6 +279,96 @@
 }
 
 /* online game ends */
+
+/* play instantly starts  */
+
+.playInstantlyContainer {
+  margin-bottom: 5rem;
+}
+
+.playInstantlyWrapper {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.playInstantlyLeft {
+  width: 39%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.playInstantlyHead {
+  color: var(--headingColor);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  margin-bottom: 0.7rem;
+}
+
+.noInstall {
+  text-align: end;
+}
+
+.playInstantPara {
+  width: 70%;
+  text-align: center;
+  color: var(--paraColor);
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+.playInstantlyRight {
+  width: 57%;
+  position: relative;
+}
+
+.playRightImgContainer {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.playRightImgContainer img {
+  height: 100%;
+  width: 100%;
+}
+
+.subImg {
+  width: 32%;
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+}
+
+.subImg img {
+  height: 100%;
+  width: 100%;
+}
+
+/* play instantly ends */
+
+/* icon section starts  */
+
+.iconContaine {
+  background-color: rgb(249, 142, 142);
+  margin-bottom: 4rem;
+}
+
+.iconWrapper {
+  background-color: rgb(148, 249, 148);
+  width: 85%;
+  margin: auto;
+  padding: 1.2rem 0.2rem;
+}
+
+/* icon section ends */
 
 /*  */
 /* media for responsive design  */
@@ -388,6 +475,50 @@
   }
 
   /* online game section ends */
+
+  /* play instantly starts  */
+
+  .playInstantlyWrapper {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .playInstantlyLeft {
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .playInstantlyHead {
+    font-size: 1.1rem;
+    line-height: 3.2rem;
+  }
+
+  .playInstantPara {
+    width: 90%;
+
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
+  .playInstantlyRight {
+    width: 85%;
+    margin-bottom: 4.6rem;
+  }
+
+  .playRightImgContainer {
+    width: 80%;
+  }
+
+  .subImg {
+    width: 34%;
+  }
+
+  /* play instantly ends */
 
   /*  */
 }
@@ -497,6 +628,45 @@
   }
 
   /* online game section ends */
+
+  /* play instantly starts  */
+
+  .playInstantlyLeft {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .playInstantlyHead {
+    font-size: 1rem;
+    line-height: 3rem;
+  }
+
+  .playInstantPara {
+    width: 92%;
+    text-align: center;
+    color: var(--paraColor);
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+
+  .playInstantlyRight {
+    width: 90%;
+    margin-bottom: 4.7rem;
+  }
+
+  .playRightImgContainer {
+    width: 80%;
+  }
+
+  .subImg {
+    width: 32%;
+  }
+
+  /* play instantly ends */
 
   /*  */
 }
