@@ -589,7 +589,8 @@
   /* banner section starts  */
 
   .bannerLeft {
-    height: calc(80vh - 10px);
+    height: calc(74vh - 10px);
+    background-color: rebeccapurple;
   }
 
   .bannerLeftDescription {
