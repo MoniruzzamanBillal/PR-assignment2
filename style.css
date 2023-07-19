@@ -198,67 +198,50 @@
 /* online game starts  */
 
 .onlineGameContainer {
-  background-color: rgba(245, 192, 192, 0.949);
   margin-bottom: 1.5rem;
 }
 
 .onlineGameWrapper {
-  background-color: rgba(226, 244, 200, 0.914);
   width: 85%;
   margin: auto;
 }
 
 .onlineGameTop {
-  background-color: rgba(206, 238, 238, 0.908);
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 .onlineTopHeading {
-  background-color: rgb(244, 244, 193);
   text-align: center;
   color: var(--headingColor);
   font-size: 2.3rem;
   font-weight: 700;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.6rem;
 }
 
 .onlineTopPara {
-  background-color: rgb(180, 220, 250);
   text-align: center;
   color: var(--paraColor);
   font-size: 1.2rem;
-  margin-bottom: 1.4rem;
+  margin-bottom: 2rem;
 }
 
-/* .onlineGameBottom {
-  background-color: rgb(242, 242, 197);
-  display: flex;
-  justify-content: space-between;
-} */
 .onlineGameBottom {
-  background-color: rgb(100, 135, 250);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
 .onlineCard {
-  background-color: rgb(205, 205, 253);
   width: 92%;
   margin: auto;
 }
 
-/* .onlineCard {
-  background-color: rgb(205, 205, 253);
-  width: 23%;
-} */
-
 .onlineCardTop {
-  background-color: rgb(252, 189, 189);
   margin-bottom: 0.8rem;
   height: calc(59vh - 5px);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .card1 {
@@ -275,12 +258,17 @@
 }
 
 .cardContainer {
-  background-color: gray;
+  background-color: var(--headingColor);
   height: 100%;
-  opacity: 0.6;
+  opacity: 0.8;
   display: none;
+  flex-direction: column;
+  gap: 0.4rem;
   justify-content: center;
   align-items: center;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: 4px solid var(--textPink);
 }
 
 .onlineCardTop:hover .cardContainer {
@@ -288,7 +276,6 @@
 }
 
 .onlineCardBottom {
-  background-color: rgb(157, 255, 115);
   color: var(--paraColor);
   font-size: 0.9rem;
   line-height: 1.2rem;
@@ -377,30 +364,25 @@
   /* online game section starts  */
 
   .onlineTopHeading {
-    background-color: rgb(255, 156, 128);
     color: var(--headingColor);
     font-size: 2.1rem;
   }
 
   .onlineTopPara {
-    background-color: rgb(147, 253, 149);
     font-size: 1rem;
   }
 
   .onlineGameBottom {
-    background-color: rgb(100, 135, 250);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 1rem;
   }
 
   .onlineCard {
-    background-color: rgb(59, 253, 182);
     width: 90%;
   }
 
   .onlineCardTop {
-    background-color: rgb(118, 159, 253);
     margin-bottom: 0.8rem;
     height: calc(62vh - 5px);
   }
@@ -501,19 +483,15 @@
   }
 
   .onlineGameBottom {
-    background-color: rgb(100, 135, 250);
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    /* row-gap: 1rem; */
   }
 
   .onlineCard {
-    background-color: rgb(59, 253, 182);
     width: 68%;
   }
 
   .onlineCardTop {
-    background-color: rgb(118, 159, 253);
     margin-bottom: 0.8rem;
     height: calc(64vh - 5px);
   }
