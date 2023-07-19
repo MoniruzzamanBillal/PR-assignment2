@@ -366,12 +366,20 @@
   width: 85%;
   margin: auto;
   padding: 1.2rem 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  row-gap: 1.5rem;
 }
 
 .iconCard {
-  /* background-color: rgb(61, 255, 216); */
-  background: #fff;
-  width: 16%;
+  background-color: rgb(61, 255, 216);
+  /* background: #fff; */
+  color: var(--headingColor);
+  width: auto;
+  margin: auto;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -384,10 +392,17 @@
   border-color: var(--textPink);
 }
 
+.iconCard p {
+  /* background-color: red; */
+  /* text-align: center; */
+  padding-left: 0.5rem;
+  white-space: nowrap;
+}
+
 .iconContainer {
   background-color: rgb(120, 120, 255);
-  width: 3rem;
-  height: 3rem;
+  width: 2.7rem;
+  height: 2.7rem;
   border-radius: 50%;
 }
 
