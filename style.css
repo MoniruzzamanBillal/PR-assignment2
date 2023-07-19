@@ -83,12 +83,16 @@
   color: #3c354f;
 }
 
+.navRightList li a:hover {
+  color: #8758f1;
+}
+
 .navRightIcon {
   background-color: rgba(202, 187, 187, 0.929);
   padding: 0.7rem 0.6rem;
   display: flex;
   align-items: center;
-  border-radius: 2px;
+  border-radius: 5px;
   gap: 0.8rem;
 }
 
@@ -97,7 +101,7 @@
 /* banner section starts  */
 
 .bannerContainer {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .bannerWrapper {
@@ -195,7 +199,7 @@
 /* online game starts  */
 
 .onlineGameContainer {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .onlineGameWrapper {
@@ -234,7 +238,7 @@
 
 .onlineCardTop {
   margin-bottom: 0.8rem;
-  height: calc(59vh - 5px);
+  height: calc(62vh - 5px);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   cursor: pointer;
@@ -341,7 +345,7 @@
 }
 
 .subImg {
-  width: 32%;
+  width: 34%;
   position: absolute;
   bottom: -50px;
   left: 0;
@@ -357,7 +361,7 @@
 /* icon section starts  */
 
 .iconContaine {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .iconWrapper {
@@ -378,11 +382,11 @@
   margin: auto;
   margin: auto;
   display: flex;
-
   align-items: center;
   padding: 0.4rem 0.4rem;
   border-radius: 30px;
   border: 2px solid transparent;
+  cursor: pointer;
 }
 
 .iconCard:hover {
@@ -390,15 +394,12 @@
 }
 
 .iconCard p {
-  /* white-space: nowrap; */
-  /* background-color: pink; */
   padding-left: 0.4rem;
   font-size: 0.9erm;
   text-align: center;
 }
 
 .iconContainer {
-  /* background-color: rgb(120, 120, 255); */
   width: 2.7rem;
   height: 2.7rem;
   border-radius: 50%;
@@ -492,6 +493,8 @@
 
 /* footer section ends */
 
+/*  */
+/*  */
 /*  */
 /* media for responsive design  */
 
@@ -593,7 +596,7 @@
 
   .onlineCardTop {
     margin-bottom: 0.8rem;
-    height: calc(62vh - 5px);
+    height: calc(59vh - 5px);
   }
 
   /* online game section ends */
@@ -645,7 +648,6 @@
   /* icon section starts  */
 
   .iconWrapper {
-    /* background-color: rgb(255, 197, 37); */
     width: 90%;
     margin: auto;
     padding: 0.8rem 0.2rem;
@@ -655,7 +657,6 @@
   }
 
   .iconCard {
-    /* background-color: rgb(252, 99, 79); */
     color: var(--headingColor);
     width: auto;
     margin: auto;
@@ -667,7 +668,6 @@
   }
 
   .iconContainer {
-    /* background-color: rgb(120, 120, 255); */
     width: 1.8rem;
     height: 1.8rem;
     border-radius: 50%;
@@ -803,7 +803,7 @@
 
   .onlineCardTop {
     margin-bottom: 0.8rem;
-    height: calc(64vh - 5px);
+    height: calc(58vh - 5px);
   }
 
   /* online game section ends */
@@ -849,7 +849,6 @@
 
   /* icon section starts  */
   .iconWrapper {
-    /* background-color: rgb(90, 143, 248); */
     width: 93%;
     margin: auto;
     padding: 0.8rem 0.2rem;
