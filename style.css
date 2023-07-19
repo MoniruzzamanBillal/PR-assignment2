@@ -20,6 +20,10 @@
   color: var(--textPink);
 }
 
+.violetColor {
+  color: var(--textViolet);
+}
+
 /* shared css ends  */
 
 /* navbar starts  */
@@ -94,14 +98,12 @@
 /* navbar ends */
 
 /* banner section starts  */
+
 .bannerContainer {
-  /* background-color: rgb(249, 106, 106); */
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .bannerWrapper {
-  /* background-color: rgb(131, 89, 248); */
-  /* width: 85%; */
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -109,7 +111,6 @@
 }
 
 .bannerLeft {
-  /* background-color: aquamarine; */
   background-image: url("images/Group 14.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -122,7 +123,6 @@
 }
 
 .bannerLeftDescription {
-  /* background-color: #67c9f3d4; */
   color: var(--headingColor);
   font-size: 2rem;
   font-weight: 600;
@@ -131,7 +131,6 @@
 }
 
 .bannerLeftHeading {
-  /* background-color: #f8ef96f3; */
   margin-bottom: 0.7rem;
   font-size: 2rem;
   font-weight: 800;
@@ -140,7 +139,6 @@
 }
 
 .bannerLeftList {
-  /* background-color: burlywood; */
   margin-bottom: 0.4rem;
 }
 
@@ -153,7 +151,6 @@
 }
 
 .bannerLeftButton {
-  /* background-color: rgba(105, 105, 245, 0.884); */
   display: flex;
   gap: 0.9rem;
 }
@@ -181,13 +178,11 @@
 }
 
 .bannerRight {
-  /* background-color: turquoise; */
   width: 49%;
   padding-right: 3rem;
 }
 
 .bannerRightWrapper {
-  /* background-color: orange; */
   height: 90%;
   width: 90%;
   margin: auto;
@@ -199,6 +194,107 @@
 }
 
 /* banner section ends */
+
+/* online game starts  */
+
+.onlineGameContainer {
+  background-color: rgba(245, 192, 192, 0.949);
+  margin-bottom: 1.5rem;
+}
+
+.onlineGameWrapper {
+  background-color: rgba(226, 244, 200, 0.914);
+  width: 85%;
+  margin: auto;
+}
+
+.onlineGameTop {
+  background-color: rgba(206, 238, 238, 0.908);
+  margin-bottom: 1rem;
+}
+
+.onlineTopHeading {
+  background-color: rgb(244, 244, 193);
+  text-align: center;
+  color: var(--headingColor);
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.onlineTopPara {
+  background-color: rgb(180, 220, 250);
+  text-align: center;
+  color: var(--paraColor);
+  font-size: 1.2rem;
+  margin-bottom: 1.4rem;
+}
+
+/* .onlineGameBottom {
+  background-color: rgb(242, 242, 197);
+  display: flex;
+  justify-content: space-between;
+} */
+.onlineGameBottom {
+  background-color: rgb(100, 135, 250);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.onlineCard {
+  background-color: rgb(205, 205, 253);
+  width: 92%;
+  margin: auto;
+}
+
+/* .onlineCard {
+  background-color: rgb(205, 205, 253);
+  width: 23%;
+} */
+
+.onlineCardTop {
+  background-color: rgb(252, 189, 189);
+  margin-bottom: 0.8rem;
+  height: calc(59vh - 5px);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.card1 {
+  background-image: url("images/Rectangle 4.png");
+}
+.card2 {
+  background-image: url("images/Rectangle 5.png");
+}
+.card3 {
+  background-image: url("images/Rectangle 7.png");
+}
+.card4 {
+  background-image: url("images/Rectangle 6.png");
+}
+
+.cardContainer {
+  background-color: gray;
+  height: 100%;
+  opacity: 0.6;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.onlineCardTop:hover .cardContainer {
+  display: flex;
+}
+
+.onlineCardBottom {
+  background-color: rgb(157, 255, 115);
+  color: var(--paraColor);
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+/* online game ends */
 
 /*  */
 /* media for responsive design  */
@@ -238,10 +334,9 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
-
     align-items: center;
-    flex-direction: column;
-    /* flex-direction: column-reverse; */
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
   }
 
   .bannerLeft {
@@ -278,6 +373,39 @@
   }
 
   /* banner section ends */
+
+  /* online game section starts  */
+
+  .onlineTopHeading {
+    background-color: rgb(255, 156, 128);
+    color: var(--headingColor);
+    font-size: 2.1rem;
+  }
+
+  .onlineTopPara {
+    background-color: rgb(147, 253, 149);
+    font-size: 1rem;
+  }
+
+  .onlineGameBottom {
+    background-color: rgb(100, 135, 250);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+  }
+
+  .onlineCard {
+    background-color: rgb(59, 253, 182);
+    width: 90%;
+  }
+
+  .onlineCardTop {
+    background-color: rgb(118, 159, 253);
+    margin-bottom: 0.8rem;
+    height: calc(62vh - 5px);
+  }
+
+  /* online game section ends */
 
   /*  */
 }
@@ -361,4 +489,36 @@
   }
 
   /* banner section ends */
+
+  /* online game section starts  */
+
+  .onlineTopHeading {
+    font-size: 2rem;
+  }
+
+  .onlineTopPara {
+    font-size: 0.9rem;
+  }
+
+  .onlineGameBottom {
+    background-color: rgb(100, 135, 250);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* row-gap: 1rem; */
+  }
+
+  .onlineCard {
+    background-color: rgb(59, 253, 182);
+    width: 68%;
+  }
+
+  .onlineCardTop {
+    background-color: rgb(118, 159, 253);
+    margin-bottom: 0.8rem;
+    height: calc(64vh - 5px);
+  }
+
+  /* online game section ends */
+
+  /*  */
 }
