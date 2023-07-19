@@ -357,12 +357,10 @@
 /* icon section starts  */
 
 .iconContaine {
-  background-color: rgb(249, 142, 142);
   margin-bottom: 4rem;
 }
 
 .iconWrapper {
-  background-color: rgb(148, 249, 148);
   width: 85%;
   margin: auto;
   padding: 1.2rem 0.2rem;
@@ -374,14 +372,13 @@
 }
 
 .iconCard {
-  background-color: rgb(61, 255, 216);
-  /* background: #fff; */
+  background: #fff;
   color: var(--headingColor);
   width: auto;
   margin: auto;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+
   align-items: center;
   padding: 0.4rem 0.4rem;
   border-radius: 30px;
@@ -393,14 +390,15 @@
 }
 
 .iconCard p {
-  padding-left: 0.5rem;
   /* white-space: nowrap; */
-  background-color: pink;
+  /* background-color: pink; */
+  padding-left: 0.4rem;
   font-size: 0.9erm;
+  text-align: center;
 }
 
 .iconContainer {
-  background-color: rgb(120, 120, 255);
+  /* background-color: rgb(120, 120, 255); */
   width: 2.7rem;
   height: 2.7rem;
   border-radius: 50%;
@@ -647,39 +645,37 @@
   /* icon section starts  */
 
   .iconWrapper {
-    background-color: rgb(90, 143, 248);
-    width: 85%;
+    /* background-color: rgb(255, 197, 37); */
+    width: 90%;
     margin: auto;
     padding: 0.8rem 0.2rem;
     display: grid;
-    /* grid-template-columns: repeat(3, 1fr); */
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 0.8rem;
+    row-gap: 1.4rem;
   }
 
   .iconCard {
-    background-color: rgb(252, 99, 79);
+    /* background-color: rgb(252, 99, 79); */
     color: var(--headingColor);
-    /* width: auto; */
-    width: 90%;
+    width: auto;
     margin: auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0.3rem 0.3rem;
+    padding: 0.2rem 0.2rem;
     border-radius: 26px;
     border: 2px solid transparent;
   }
 
+  .iconContainer {
+    /* background-color: rgb(120, 120, 255); */
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+  }
   .iconCard p {
     padding-left: 0.3rem;
-  }
-
-  .iconContainer {
-    background-color: rgb(120, 120, 255);
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
+    font-size: 0.8rem;
+    white-space: nowrap;
   }
 
   /* icon section ends */
@@ -745,7 +741,6 @@
 
   .bannerLeft {
     height: calc(74vh - 10px);
-    background-color: rebeccapurple;
   }
 
   .bannerLeftDescription {
@@ -854,15 +849,31 @@
 
   /* icon section starts  */
   .iconWrapper {
-    background-color: rgb(90, 143, 248);
-    width: 85%;
+    /* background-color: rgb(90, 143, 248); */
+    width: 93%;
     margin: auto;
     padding: 0.8rem 0.2rem;
     display: grid;
-    /* grid-template-columns: repeat(3, 1fr); */
     grid-template-columns: repeat(3, 1fr);
+    row-gap: 1.4rem;
+  }
 
-    row-gap: 0.8rem;
+  .iconCard {
+    padding: 0.15rem 0.16rem;
+    border-radius: 26px;
+    border: 2px solid transparent;
+  }
+
+  .iconContainer {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+  }
+
+  .iconCard p {
+    padding-left: 0.2rem;
+    font-size: 0.58rem;
+    white-space: nowrap;
   }
 
   /* icon section ends */
